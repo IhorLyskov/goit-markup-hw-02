@@ -201,3 +201,8 @@ body {
   font-style: normal;
   color: var(--footer-tel-color);
 }
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
