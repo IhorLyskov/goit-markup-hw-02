@@ -118,6 +118,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--hero-btn-color);
   background-color: var(--accent-color);
+  cursor: pointer;
   /* display: flex;
   align-items: center;
   text-align: center; */
