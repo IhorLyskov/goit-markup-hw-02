@@ -7,7 +7,8 @@
   --title-color: #212121;
   --dark-bg-color: #2f303a;
   --hero-title-color: #ffffff;
-  --hero-btn-color: #ffffff;
+  --btn-text-color: #ffffff;
+  --btn-bg-color: #f5f4fa;
   --feature-title-color: #212121;
   --team-bg-color: #f5f4fa;
   --footer-addr-color: #ffffff;
@@ -33,10 +34,6 @@ body {
   /* Основной фон страницы */
   background-color: var(--main-bg-color);
   font-family: 'Roboto', Tahoma, sans-serif;
-  /* font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em; */
 }
 
 /* Убираем подчеркивание у ссылок */
@@ -116,7 +113,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--hero-btn-color);
+  color: var(--btn-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
   /* display: flex;
@@ -206,4 +203,38 @@ body {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
+}
+
+/* ---------------------PORTFOLIO--------------------- */
+
+.filters-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--title-color);
+  background-color: var(--btn-bg-color);
+}
+
+.filters-btn:hover,
+.filters-btn:focus,
+.filters-btn-current {
+  color: var(--btn-text-color);
+  background-color: var(--accent-color);
+}
+
+.projects-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
