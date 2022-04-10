@@ -69,7 +69,7 @@ body {
   color: var(--title-color);
 }
 
-.current {
+.header-link.current {
   color: var(--accent-color);
 }
 
@@ -221,7 +221,7 @@ body {
 
 .filters-btn:hover,
 .filters-btn:focus,
-.filters-btn-current {
+.filters-btn.current {
   color: var(--btn-text-color);
   background-color: var(--accent-color);
 }
